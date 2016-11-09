@@ -5,6 +5,7 @@ var printDetails = function(value){
     console.log(value);
     console.log(typeof value);
     // NOTE this function is NOT returning anything
+    return value;
 }
 
 printDetails('this is a string');
