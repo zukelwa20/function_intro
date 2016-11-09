@@ -1,5 +1,5 @@
 //in a file called repeat.js
-
+//declaring the function
 var str = 'this is a string';
 console.log(str);
 console.log(typeof str);
