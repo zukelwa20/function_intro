@@ -1,5 +1,5 @@
 //execute this using define_vs_calling.js
-
+//declaring a function name 
 var theFunction = function(){
     console.log('this is the function executing');
 }
