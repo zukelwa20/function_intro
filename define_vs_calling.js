@@ -6,7 +6,7 @@ var theFunction = function(){
 
 //what does this print
 console.log(theFunction);
-
+// print type of function
 console.log(typeof theFunction);
 
 //to call the function
