@@ -4,7 +4,7 @@
 var printDetails = function(value){
     console.log(value);
     console.log(typeof value);
-    // NOTE this function is NOT returning anything
+    // not this function is NOT returning anything
     return value;
 }
 

@@ -1,4 +1,5 @@
 var isTuesday = function(day){
-  today.getDay();
-  console.log(day);
+  var today = day.startsWith("tuesday");
+  return today;
 }
+console.log(isTuesday("tuesday"));
