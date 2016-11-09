@@ -4,7 +4,11 @@
 var printDetails = function(value){
     console.log(value);
     console.log(typeof value);
+<<<<<<< HEAD
     // not this function is NOT returning anything
+=======
+    // NOTE this function is NOT returning anything
+>>>>>>> c0c88a120b6f7cf1805f48a79270cd6a767207a1
     return value;
 }
 

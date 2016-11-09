@@ -1,5 +1,5 @@
 //execute this using functions_as_variables.js
-
+//declaring  the function name
 var funcOne = function(){
     console.log('funcOne!');
 };
