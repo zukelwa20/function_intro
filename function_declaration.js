@@ -5,6 +5,6 @@ myFunc();
 
 //declare the function
 function myFunc(){
-//print type of function  
+//print type of function
     console.log('Function Declaration');
 }
