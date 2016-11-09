@@ -5,7 +5,7 @@ var name = "David Blankit";
 var favSport = function(){
     //console.log(name);
     var favouriteSport = "Soccer";
-  // this will print david's favourate sport
+// this will print david's favourate sport
     console.log(name + "'s favourite sport is " + favouriteSport);
 };
 
