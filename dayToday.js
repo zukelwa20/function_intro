@@ -1,9 +1,8 @@
-var assert = require('assert');
+var assert = require('assert')
 var dayToday = function(){
+var weekDays = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 var today = new Date ();
- var check = today.getDay();
- console.log(check);
-return check;
+return weekDays[today.getDay()];
  }
-dayToday('2016-11-14');
-assert.equal(dayToday('2016-11-14'),1);
+console.log(dayToday());
+assert.equal(dayToday(),'monday');
